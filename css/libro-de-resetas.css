@@ -1,0 +1,21 @@
+body{
+
+background-color: bisque;
+
+}
+
+body > main > div > div {    
+
+    width: 40%;
+
+    display: inline-flex;
+
+
+    border: 3px rgb(0, 232, 248)solid;
+
+    padding: 3%;
+
+    margin: 3%; 
+    
+  
+}
