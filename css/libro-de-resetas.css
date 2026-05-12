@@ -1,6 +1,6 @@
 body{
 
-background-color: bisque;
+background-color: rgba(247, 159, 52, 0.852);
 
 }
 
@@ -10,8 +10,10 @@ body > main > div > div {
 
     display: inline-flex;
 
+    
 
-    border: 3px rgb(0, 232, 248)solid;
+    background-color: rgba(255, 214, 7, 0.897);
+         border: 3px rgb(123, 107, 1)solid;
 
     padding: 3%;
 
@@ -19,3 +21,6 @@ body > main > div > div {
     
   
 }
+
+
+

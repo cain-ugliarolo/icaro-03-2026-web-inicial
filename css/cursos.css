@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgb(148, 199, 199);
+}
+
+.grid 
+{
+    display: grid;
+    grid-template-areas:
+     "header header" 
+     
+     "menu sidebar"
+     "menu contenido"
+     "folter  folter"
+    ;
+    grid-template-columns: 200px,1fr;
+    grid-template-rows: 100px auto auto 50px;
+    gap: 20px;
+    height: 100vh;
+}
+
+.grid__header
+{
+  grid-area: header;  
+  background-color: bisque;
+}
+
+.grid__menu
+{
+    grid-area: menu ;
+    background-color: azure;
+}
+
+.grid__contenido
+{
+    grid-area: contenido;
+    background-color: aqua;
+}
+
+.grid__sidebar
+{
+grid-area: sidebar;
+background-color: aquamarine;
+}
+
+.grid__footer
+{
+    grid-area: footer;
+    background-color: rgb(254, 144, 0);
+}

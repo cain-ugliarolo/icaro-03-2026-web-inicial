@@ -1,0 +1,22 @@
+body 
+{
+    background-color:rgba(247, 159, 52, 0.852) ;
+}
+
+body > nav > div
+{
+background-color: rgb(243, 203, 83);
+}
+
+.carousel-item
+{
+    max-height: 400px;
+    max-width: 600px;
+    
+}
+
+
+body > menu 
+{
+    display: inline-block;
+}
