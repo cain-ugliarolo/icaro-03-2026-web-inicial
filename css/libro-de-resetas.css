@@ -8,18 +8,7 @@ body > nav > div
 background-color: rgb(243, 203, 83);
 }
 
-
-
-.h1 
-{
-    text-align: center;
-}
-.h3
-{
-    text-align: center;
-}
-
-body > menu > div > div >div 
+body > menu > section > div > div >div 
 {
     width: 100%;
     height: 100%;
@@ -28,12 +17,32 @@ body > menu > div > div >div
 .rowrece
 {
     margin: 10px;
-background-color: rgb(247, 159, 52, 0.852);
-     align-items: center;
-     border-radius: 10px;
+    background-color: rgb(247, 159, 52, 0.852);
+    align-items: center;
+    border-radius: 10px;
 }
 .coltext
 {
-   
     object-fit: contain;
+}
+.conteiner-bt
+{
+    margin-left: 10px;
+}
+.link-decoration-footer
+{
+    text-decoration: none;
+    color: white ;        
+    cursor: pointer;
+}
+.text
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title
+{
+    text-align: center;
+    text-decoration: underline black;
+    font-style: italic ;
 }
