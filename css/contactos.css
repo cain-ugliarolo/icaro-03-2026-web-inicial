@@ -1,0 +1,18 @@
+.link-decoration-footer
+{
+    text-decoration: none;
+    color: white ;        
+    cursor: pointer;
+}
+
+.text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title
+{
+    text-decoration: underline black;
+    font-style: italic ;
+}
+

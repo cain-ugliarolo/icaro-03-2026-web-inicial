@@ -9,9 +9,25 @@ body > nav > div
 background-color: rgb(243, 203, 83);
 }
 
-
-
 .card
 {
     margin: 10px;
 }
+
+.text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title
+{
+    text-decoration: underline black;
+    font-style: italic ;
+}
+
+.link-decoration-footer
+{
+    text-decoration: none;
+    color: white ;        
+    cursor: pointer;
+}
+
