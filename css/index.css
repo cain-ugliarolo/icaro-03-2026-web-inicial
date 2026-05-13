@@ -1,11 +1,13 @@
 body 
 {
     background-color:rgba(247, 159, 52, 0.852) ;
+    
 }
 
 body > nav > div
 {
 background-color: rgb(243, 203, 83);
+
 }
 
 .carousel-item
@@ -14,9 +16,44 @@ background-color: rgb(243, 203, 83);
     max-width: 600px;
     
 }
-
-
-body > menu 
+.text
 {
-    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title
+{
+    text-decoration: underline black;
+    font-style: italic ;
+}
+
+.acordion 
+{
+    background-color: rgb(255, 140, 0);
+}
+
+.accordion-item
+{
+    background-color: rgb(240, 194, 137);
+}
+.accordion-header
+{
+background-color: rgb(255, 140, 0);
+}
+.accordion-button 
+{
+    background-color: rgb(219, 187, 152);
+    
+}
+
+.link-decoration
+{
+    text-decoration: none;
+    color: rgb(86, 41, 250) ;        
+    cursor: pointer;
+}
+.link-decoration-footer
+{
+    text-decoration: none;
+    color: white ;        
+    cursor: pointer;
 }

@@ -1,50 +1,17 @@
 
-body {
-    background-color: rgb(148, 199, 199);
+body
+{
+    background-color:rgba(247, 159, 52, 0.852) ;
 }
 
-.grid 
+body > nav > div
 {
-    display: grid;
-    grid-template-areas:
-     "header header" 
-     
-     "menu sidebar"
-     "menu contenido"
-     "folter  folter"
-    ;
-    grid-template-columns: 200px,1fr;
-    grid-template-rows: 100px auto auto 50px;
-    gap: 20px;
-    height: 100vh;
+background-color: rgb(243, 203, 83);
 }
 
-.grid__header
-{
-  grid-area: header;  
-  background-color: bisque;
-}
 
-.grid__menu
-{
-    grid-area: menu ;
-    background-color: azure;
-}
 
-.grid__contenido
+.card
 {
-    grid-area: contenido;
-    background-color: aqua;
-}
-
-.grid__sidebar
-{
-grid-area: sidebar;
-background-color: aquamarine;
-}
-
-.grid__footer
-{
-    grid-area: footer;
-    background-color: rgb(254, 144, 0);
+    margin: 10px;
 }
