@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>dadad</p>
+    
+<RecipeSearch></RecipeSearch>
+   <script >
+
+
+const recetas = [
+    {name : "guiso de lentejas tradiciona",
+        id : "0"
+    },
+    {name : 'Locro Criollo'},
+    {name : 'Fideos de arroz con salteado de tofu y pimiento'},
+    {name : 'Ensalada de quinoa, calabaza asada y granada'},
+    {name : 'Pizza siNTacc casera'},
+    {name : 'Croquetas de arroz yamaní orgánico con vegetales de estación y sin gluten'},
+    {name : 'Torta Invertida de Manzana SIN TACC'},
+    {name : 'Tarta toffe'},
+
+] ;
+
+
+const SearchInput = document.createElement('input');
+
+SearchInput.setAttribute('placeholder','Buscar...');
+
+SearchInput.setAttribute('type','text');
+
+SearchInput.addEventListener('input',(e) => {
+
+    ResultList.innerHTML='';
+
+    if (e.target.value.length < 4) return;
+
+    
+
+    let matches = [];
+
+    for (let i =0;i<recetas.length;i++){
+        if(recetas[i].name.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase())){
+            matches.push(recetas[i]);
+            matches.push(recetas[i]);
+    
+       }
+    }
+
+    for(i=0;i<matches.length;i++) 
+    {
+    let item = document.createElement('div');
+    item.innerHTML=matches[i].name; 
+    item.addEventListener('click', (e) =>{ 
+        e.target.remove()
+        matches[i].scrollIntoView({})
+    e=1;
+    }
+    )
+        console.log(e)
+
+ResultList.appendChild(item);
+}})
+
+document.body.appendChild(SearchInput);
+const  ResultList = document.createElement('div');
+document.body.appendChild(ResultList);
+
+</script> 
+
+
+
+</body>
+</html>
+
+                
